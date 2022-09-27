@@ -1,60 +1,84 @@
-/*
-Estilos da página index.html*/
-.center {
+li {
+  margin-right: 1rem;
+  font-size: 18px;}
+
+  h1{
     text-align: center;
-  }
-
-.justify{
-  text-align:justify;
-}
-
-.container {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: center;
-  }
-  img {
-    max-width: auto;
-    max-height: 100%;
-  }
-    .cat{
-    height: 500px;
-    }
-
-  #menu li {
-    display: inline;
-    padding: 20px;
-      }
+    color: #F7775E;}
+  
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    color:black;}
+  
+  a:hover {
+    color:grey;}
 
   ul {
-        list-style: none;
-        display: flex
-      }
-      
-      li {
-        margin-right: 1rem;
-        font-size: 24px
-      }
-      
- a {
-        text-decoration: none;
-        color: black;
-        font-size:15px;
-              }
+  list-style: none;
+  display: flex;}
 
- a:hover{
-    color:grey;
- }
+  .separacao {
+  display: flex;
+  align-items: center;}
 
-   .tm-social{
-   width: 30px;
-   height: 30px;
-   padding: 20px;
-
- }
-
-
+  .perfil {
+  text-align: center;}
  
-/*
-Estilos da página contato.html*/
 
+  .endereco {
+  color: black;
+  font-size: 1.25rem;}
+
+  .mapa {
+  width: 25vw;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  box-shadow: 8px 8px 16px black;}
+
+  .foto {
+  width: 500px;
+  height: 300px;
+  border-radius: 5%;
+  max-width: auto;
+  max-height: 100%;}
+ 
+
+  .video {
+  width: 35vw;
+  aspect-ratio: 16/9;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  margin-top: 2rem;
+  margin-bottom:40px;}
+
+  .ml-50{
+  margin-left: 50px;}
+
+  button {
+  background-color: transparent;
+  cursor: pointer;}
+
+  button:hover {
+  background-color: var(black);
+  color: grey;}
+
+  .tm-social{
+  width: 30px;
+  height: 30px;
+  padding: 20px;}
+
+  .container {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+  align-items: center;}
+   
+  .center {
+  text-align: center;}
+
+        
+    
+  
+ 
